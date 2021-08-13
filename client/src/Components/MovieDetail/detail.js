@@ -1,17 +1,6 @@
-import React, { useState, useEffect, Fragment } from 'react';
-import axios from 'axios';
+import React, { Fragment } from 'react';
 
-
-export default ({search}) => {
-
-    const [movie, getMovie] = useState({});
-
-    useEffect(() => {
-        axios.get(`https://api.themoviedb.org/3/movie/${search}?api_key=4474baf247587dd6aeda2ad252fd1ba6&language=en-US`)
-            .then((response) => {
-                getMovie(response.data);
-            })
-    }, [search]);
+export default ({movie}) => {
 
     const imageOnLoad = () => {
         console.log('image loaded');

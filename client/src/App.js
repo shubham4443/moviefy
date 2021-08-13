@@ -23,8 +23,8 @@ function App() {
           <div className="col-sm-6" style={{ textAlign: 'center', padding: 100 }}>
             <h2 className="container-title">MOVIEFY</h2>
             <span style={{color: 'white'}}>Portfolio:&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <a href="https://shubham-nazare1.web.app/" target='_blank' rel='noreferrer noopener' style={{ textDecoration: 'none', color: 'white' }}>
-            www.shubham-nazare1.web.app
+            <a href="https://shubham4443.web.app/" target='_blank' rel='noreferrer noopener' style={{ textDecoration: 'none', color: 'white' }}>
+            www.shubham4443.web.app
           </a>
           </div>
           <div className="col-sm-6" style={{ textAlign: 'center', padding: 100 }}>
